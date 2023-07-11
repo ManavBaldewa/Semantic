@@ -1,8 +1,9 @@
 import spacy
 import streamlit as st
 
+
 # Load the English language model from SpaCy
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_sm")
 
 # Define a function to calculate the semantic similarity between two texts
 def calculate_similarity(text1, text2) :
