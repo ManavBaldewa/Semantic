@@ -1,4 +1,5 @@
 import spacy
+import streamlit as st
 
 nlp = spacy.load("en_core_web_lg")
 
