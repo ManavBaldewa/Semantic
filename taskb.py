@@ -6,7 +6,7 @@ nlp = spacy.load("en_core_web_lg")
 
 # Define a function to calculate the semantic similarity between two texts
 def calculate_similarity(text1, text2) :
-"""
+  """
   Calculates the semantic similarity between two texts.
 
   Args:
@@ -15,7 +15,7 @@ def calculate_similarity(text1, text2) :
 
   Returns:
     float: The semantic similarity between the two texts.
-"""
+  """
 # Create Doc objects from the two texts
   sent1 = nlp(text1)
   sent2 = nlp(text2)
