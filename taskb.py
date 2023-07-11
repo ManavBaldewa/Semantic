@@ -49,7 +49,7 @@ def main() :
         similarity = calculate_similarity(text1, text2)
       
 # Display the similarity
-    st.success("Similarity is {}".format(similarity))
+    st.success("Similarity score : {}".format(similarity))
 
 # Run the main function
 if __name__ == "__main__" :
