@@ -1,8 +1,5 @@
-import streamlit as st
 import spacy
 
-import spacy.cli 
-spacy.cli.download("en_core_web_lg")
 nlp = spacy.load("en_core_web_lg")
 
 def calculate_similarity(text1, text2) :
