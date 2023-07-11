@@ -47,7 +47,7 @@ def main() :
     similarity = ""
     if st.button("Calculate similarity") :
         similarity = calculate_similarity(text1, text2)
-
+    st.write("Similariy score :", similarity)
 # Display the similarity
     st.success("Similarity is {}".format(similarity))
 
