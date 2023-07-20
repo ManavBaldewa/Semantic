@@ -1,8 +1,5 @@
 import spacy
 import streamlit as st
-import spacy.cli 
-
-spacy.cli.download("en_core_web_lg")
 
 # Load the English language model from SpaCy
 nlp = spacy.load("en_core_web_lg")
